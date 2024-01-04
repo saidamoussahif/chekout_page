@@ -8,7 +8,6 @@ src/
 |   |-- TotalPrice.tsx
 |   |-- CheckoutButton.tsx
 |   |-- CheckoutForm.tsx
-|   |-- SuccessPopup.tsx
 |-- App.tsx
 |-- index.tsx
 |-- ...
