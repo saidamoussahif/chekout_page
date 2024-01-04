@@ -1,6 +1,7 @@
 # E-commerce Checkout Page
 # React + TypeScript + Vite
--Project Structure
+
+# Project Structure
 src/
 |-- components/
 |   |-- SelectedItemsList.tsx
@@ -12,7 +13,7 @@ src/
 |-- index.tsx
 |-- ...
 
--Technical Requirements
+# Technical Requirements
 React: The front-end is built using React, providing a modular and efficient user interface.
 tanstack/query: Utilized for making simulated POST requests to the backend, enabling efficient data handling.
 Cypress: End-to-end testing using Cypress ensures the application's functionality works as expected.
@@ -22,7 +23,7 @@ Vite.js or Next.js: The project is built using Vite.js, providing a fast and eff
 TypeScript: TypeScript is used for writing the application, enhancing code maintainability and catching potential errors during development.
 
 
--Getting Started
+# Getting Started
 
 npx create-vite my-checkout-page --template react-ts
 cd my-checkout-page
