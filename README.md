@@ -1,31 +1,46 @@
 # E-commerce Checkout Page
 # React + TypeScript + Vite
+-Project Structure
+src/
+|-- components/
+|   |-- SelectedItemsList.tsx
+|   |-- TotalPrice.tsx
+|   |-- CheckoutButton.tsx
+|   |-- CheckoutForm.tsx
+|   |-- SuccessPopup.tsx
+|-- App.tsx
+|-- index.tsx
+|-- ...
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+-Technical Requirements
+React: The front-end is built using React, providing a modular and efficient user interface.
+tanstack/query: Utilized for making simulated POST requests to the backend, enabling efficient data handling.
+Cypress: End-to-end testing using Cypress ensures the application's functionality works as expected.
+Error Handling: The application handles potential errors or side behaviors that may arise from the server's responses.
+Tailwind CSS: The Tailwind CSS framework is employed for styling, ensuring a responsive and visually appealing design.
+Vite.js or Next.js: The project is built using Vite.js, providing a fast and efficient development environment.
+TypeScript: TypeScript is used for writing the application, enhancing code maintainability and catching potential errors during development.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Getting Started
 
-## Expanding the ESLint configuration
+npx create-vite my-checkout-page --template react-ts
+cd my-checkout-page
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+npm install
 
-- Configure the top-level `parserOptions` property like this:
+# For tanstack/query
+npm install react-query
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+# For Cypress
+npm install cypress --save-dev
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+# For Tailwind CSS
+npm install tailwindcss
+
+# For TypeScript
+npm install --save-dev typescript @types/react @types/node
+
+
+Run the application locally: 
+npm run dev
