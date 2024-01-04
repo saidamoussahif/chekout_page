@@ -45,3 +45,6 @@ npm install --save-dev typescript @types/react @types/node
 
 Run the application locally: 
 npm run dev
+
+# Demo
+![image](https://github.com/saidamoussahif/chekout_page/assets/93975470/e2d2eb14-d0c7-4f72-a9b5-59fc68fba715)
